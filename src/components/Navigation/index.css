@@ -1,0 +1,26 @@
+li {
+    list-style-type: none;
+    text-decoration-line: none;
+    margin: 0px;
+    padding: 10px;
+    display: inline;
+}
+
+.di {
+    background-color: black;
+    margin-top: 0px;
+    height: 60px;
+  }
+
+Link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+div {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
