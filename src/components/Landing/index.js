@@ -1,9 +1,11 @@
 import React from 'react';
- 
+import './index.css';
+import HeroSection from './HeroSection2'
+
 const Landing = () => (
-  <div>
-    <h1>Landing</h1>
-  </div>
+  <>
+    <HeroSection />
+  </>
 );
  
 export default Landing;

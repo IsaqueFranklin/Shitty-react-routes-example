@@ -13,12 +13,8 @@ import Admin from '../Admin';
 import * as ROUTES from '.././constants/routes';
  
 const App = () => (
-  <Router>
-    <div>
+  <Router className="definitios">
       <Navigation />
-
-      <hr/>
-
       <Route exact path={ROUTES.LANDING} component={Landing} />
       <Route path={ROUTES.SIGN_UP} component={SignUp} />
       <Route path={ROUTES.SIGN_IN} component={SignIn} />
@@ -27,7 +23,6 @@ const App = () => (
       <Route path={ROUTES.ACCOUNT} component={Account} />
       <Route path={ROUTES.ADMIN} component={Admin} />
 
-    </div>
   </Router>
 );
  
